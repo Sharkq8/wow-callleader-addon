@@ -1,0 +1,39 @@
+## Interface: 120100
+## Title: |cff00ccffCall Leader - Epic Battlegrounds|r
+## Author: CallLeader Team
+## Version: 1.0.0
+## Description: A comprehensive call-leader addon for Epic Battlegrounds (40v40) with customizable callouts, presets, and full UI integration
+## SavedVariables: CallLeaderDB
+## OptionalDeps: Ace3
+
+embeds.xml
+
+# Core
+Core/CallLeader.lua
+Core/Constants.lua
+Core/Defaults.lua
+
+# Battleground Presets
+Presets/AV.lua
+Presets/IOC.lua
+Presets/Ashran.lua
+Presets/WG.lua
+Presets/SR.lua
+
+# UI Components
+UI/MainFrame.lua
+UI/CalloutPanel.lua
+UI/SettingsPanel.lua
+UI/ColorPicker.lua
+UI/PresetManager.lua
+
+# Managers
+Managers/CalloutManager.lua
+Managers/SettingsManager.lua
+Managers/PresetManager.lua
+Managers/EventManager.lua
+
+# Localization
+Locales/enUS.lua
+Locales/deDE.lua
+Locales/frFR.lua
